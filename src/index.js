@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import FormContainer from "./containers/FormContainer";
+// import GetForm from "./containers/GetForm";
 import "bootstrap/dist/css/bootstrap.css";
+//import FormContainer from "./containers/FormContainer";
+ import SearchData from "./containers/SearchData";
 
 
 const styles = {
@@ -14,8 +16,7 @@ class App extends Component {
     return (
       <div className="col-md-6">
         <h3> Insert Data </h3>
-        <FormContainer />
-    
+       <SearchData />
       </div>
     );
   }

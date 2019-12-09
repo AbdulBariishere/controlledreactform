@@ -25,7 +25,7 @@ class FormContainer extends Component {
     this.handleFullName = this.handleFullName.bind(this);
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
     this.handleClearForm = this.handleClearForm.bind(this);
-  //  this.handleCheckBox = this.handleCheckBox.bind(this);
+  //this.handleCheckBox = this.handleCheckBox.bind(this);
     this.handleInput = this.handleInput.bind(this);
   }
 

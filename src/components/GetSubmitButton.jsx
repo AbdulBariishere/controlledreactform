@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-const getbutton = () => {
+const GetSubmitButton = (props) => {
     console.log(props.style);
     return (
       <button
@@ -14,4 +14,4 @@ const getbutton = () => {
     );
 };
  
-export default getbutton ;
+export default GetSubmitButton ;
